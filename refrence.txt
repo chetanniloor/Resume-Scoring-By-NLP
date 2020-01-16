@@ -1,0 +1,33 @@
+Workflow
+
+Creating corpus using Sketch Engine
+Creating word embedding using Genism , Word2Vec
+Preprocessing
+Removing common words that are not required
+Creating phrases of words that frequently occur togther (bigrams)
+Building word2vec model
+Extracting resumes (using PyPDF) and converting to string
+Building candidate profile using model.most_similar(skills), where skills is an array of required skills
+Creating a matcher using Spacy to match the wods in resume to most_similar(skills)
+Printing and visualizing the candidate profile
+
+
+1. Title
+2. Businees understanding(objective of the project)
+2.1.Problem statment
+3. data understanding(pdf format)
+4. approach (NLP)
+5. Results
+6. Future Scope
+7. Thank you
+
+
+Recrutierues take 6 secs to scan the resume
+1 in 6 seconds 
+
+1.https://github.com/sadmicrowave/Resume-Ranker
+2.https://github.com/meghnalohani/Resume-Scoring-using-NLP(Important)
+3.https://github.com/mohit36/Resume-classification-and-scoring
+4.https://github.com/amans1997/NLP(same as 2)
+5.https://github.com/ameer521/CV-Analyzer
+6.
